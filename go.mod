@@ -2,6 +2,8 @@ module github.com/nowfred/dd-trace-go
 
 go 1.19
 
+replace gopkg.in/DataDog/dd-trace-go.v1 => github.com/nowfred/dd-trace-go v1.59.2
+
 require (
 	cloud.google.com/go/pubsub v1.33.0
 	github.com/99designs/gqlgen v0.17.36
