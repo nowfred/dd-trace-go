@@ -4,7 +4,7 @@
 // Copyright 2016 Datadog, Inc.
 
 // Package http provides functions to trace the net/http package (https://golang.org/pkg/net/http).
-package http // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/net/http"
+package http // import "github.com/nowfred/dd-trace-go/contrib/net/http"
 
 import (
 	"net/http"
