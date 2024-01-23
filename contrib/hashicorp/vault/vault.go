@@ -21,11 +21,11 @@ import (
 	"net"
 	"net/http"
 
-	httptrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/net/http"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	httptrace "github.com/nowfred/dd-trace-go/contrib/net/http"
+	"github.com/nowfred/dd-trace-go/ddtrace"
+	"github.com/nowfred/dd-trace-go/ddtrace/ext"
+	"github.com/nowfred/dd-trace-go/ddtrace/tracer"
+	"github.com/nowfred/dd-trace-go/internal/telemetry"
 
 	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/sdk/helper/consts"

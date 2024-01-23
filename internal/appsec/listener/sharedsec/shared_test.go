@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	waf "github.com/DataDog/go-libddwaf/v2"
+	"github.com/nowfred/dd-trace-go/internal/appsec/trace"
 	"github.com/stretchr/testify/require"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/trace"
 )
 
 // Test that internal functions used to set span tags use the correct types

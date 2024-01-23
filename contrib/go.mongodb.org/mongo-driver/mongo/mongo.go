@@ -16,11 +16,11 @@ import (
 	"strings"
 	"sync"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/nowfred/dd-trace-go/ddtrace"
+	"github.com/nowfred/dd-trace-go/ddtrace/ext"
+	"github.com/nowfred/dd-trace-go/ddtrace/tracer"
+	"github.com/nowfred/dd-trace-go/internal/log"
+	"github.com/nowfred/dd-trace-go/internal/telemetry"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/event"

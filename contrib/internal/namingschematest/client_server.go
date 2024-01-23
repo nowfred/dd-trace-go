@@ -8,8 +8,8 @@ package namingschematest
 import (
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/namingschema"
+	"github.com/nowfred/dd-trace-go/ddtrace/mocktracer"
+	"github.com/nowfred/dd-trace-go/internal/namingschema"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

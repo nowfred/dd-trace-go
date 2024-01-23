@@ -8,7 +8,7 @@ package fastdelta
 import (
 	"fmt"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/profiler/internal/pproflite"
+	"github.com/nowfred/dd-trace-go/profiler/internal/pproflite"
 
 	"github.com/spaolacci/murmur3"
 )

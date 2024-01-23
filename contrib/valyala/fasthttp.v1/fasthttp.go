@@ -4,19 +4,19 @@
 // Copyright 2016 Datadog, Inc.
 
 // Package fasthttp provides functions to trace the valyala/fasthttp package (https://github.com/valyala/fasthttp)
-package fasthttp // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/valyala/fasthttp.v1"
+package fasthttp // import "github.com/nowfred/dd-trace-go/contrib/valyala/fasthttp.v1"
 
 import (
 	"fmt"
 	"strconv"
 
+	"github.com/nowfred/dd-trace-go/contrib/internal/fasthttptrace"
+	"github.com/nowfred/dd-trace-go/ddtrace"
+	"github.com/nowfred/dd-trace-go/ddtrace/ext"
+	"github.com/nowfred/dd-trace-go/ddtrace/tracer"
+	"github.com/nowfred/dd-trace-go/internal/log"
+	"github.com/nowfred/dd-trace-go/internal/telemetry"
 	"github.com/valyala/fasthttp"
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/fasthttptrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
 )
 
 const componentName = "valyala/fasthttp.v1"

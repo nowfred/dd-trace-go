@@ -9,7 +9,7 @@ import (
 	"encoding/json"
 	"sync"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/nowfred/dd-trace-go/internal/log"
 )
 
 type serializableTag struct {

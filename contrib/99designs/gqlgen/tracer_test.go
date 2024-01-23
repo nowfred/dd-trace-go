@@ -8,10 +8,10 @@ package gqlgen
 import (
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/lists"
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/namingschematest"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
+	"github.com/nowfred/dd-trace-go/contrib/internal/lists"
+	"github.com/nowfred/dd-trace-go/contrib/internal/namingschematest"
+	"github.com/nowfred/dd-trace-go/ddtrace/ext"
+	"github.com/nowfred/dd-trace-go/ddtrace/mocktracer"
 
 	"github.com/99designs/gqlgen/client"
 	"github.com/99designs/gqlgen/graphql"

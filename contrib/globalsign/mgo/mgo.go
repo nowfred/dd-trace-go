@@ -4,18 +4,18 @@
 // Copyright 2016 Datadog, Inc.
 
 // Package mgo provides functions and types which allow tracing of the MGO MongoDB client (https://github.com/globalsign/mgo)
-package mgo // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/globalsign/mgo"
+package mgo // import "github.com/nowfred/dd-trace-go/contrib/globalsign/mgo"
 
 import (
 	"math"
 	"net"
 	"strings"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/nowfred/dd-trace-go/ddtrace"
+	"github.com/nowfred/dd-trace-go/ddtrace/ext"
+	"github.com/nowfred/dd-trace-go/ddtrace/tracer"
+	"github.com/nowfred/dd-trace-go/internal/log"
+	"github.com/nowfred/dd-trace-go/internal/telemetry"
 
 	"github.com/globalsign/mgo"
 )

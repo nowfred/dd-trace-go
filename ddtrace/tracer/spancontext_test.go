@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/samplernames"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry/telemetrytest"
+	"github.com/nowfred/dd-trace-go/ddtrace/ext"
+	"github.com/nowfred/dd-trace-go/internal/globalconfig"
+	"github.com/nowfred/dd-trace-go/internal/log"
+	"github.com/nowfred/dd-trace-go/internal/samplernames"
+	"github.com/nowfred/dd-trace-go/internal/telemetry"
+	"github.com/nowfred/dd-trace-go/internal/telemetry/telemetrytest"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

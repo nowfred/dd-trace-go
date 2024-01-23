@@ -8,7 +8,7 @@ package datastreams
 import (
 	"context"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/datastreams"
+	"github.com/nowfred/dd-trace-go/internal/datastreams"
 )
 
 // MergeContexts returns the first context which includes the pathway resulting from merging the pathways

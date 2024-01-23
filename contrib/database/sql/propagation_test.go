@@ -15,10 +15,10 @@ import (
 	"regexp"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/database/sql/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
+	"github.com/nowfred/dd-trace-go/contrib/database/sql/internal"
+	"github.com/nowfred/dd-trace-go/ddtrace/mocktracer"
+	"github.com/nowfred/dd-trace-go/ddtrace/tracer"
+	"github.com/nowfred/dd-trace-go/internal/globalconfig"
 
 	mssql "github.com/denisenkom/go-mssqldb"
 	"github.com/go-sql-driver/mysql"

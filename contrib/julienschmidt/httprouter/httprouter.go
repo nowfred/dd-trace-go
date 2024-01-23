@@ -4,20 +4,20 @@
 // Copyright 2016 Datadog, Inc.
 
 // Package httprouter provides functions to trace the julienschmidt/httprouter package (https://github.com/julienschmidt/httprouter).
-package httprouter // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/julienschmidt/httprouter"
+package httprouter // import "github.com/nowfred/dd-trace-go/contrib/julienschmidt/httprouter"
 
 import (
 	"math"
 	"net/http"
 	"strings"
 
-	httptraceinternal "gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/httptrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/options"
-	httptrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/net/http"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	httptraceinternal "github.com/nowfred/dd-trace-go/contrib/internal/httptrace"
+	"github.com/nowfred/dd-trace-go/contrib/internal/options"
+	httptrace "github.com/nowfred/dd-trace-go/contrib/net/http"
+	"github.com/nowfred/dd-trace-go/ddtrace/ext"
+	"github.com/nowfred/dd-trace-go/ddtrace/tracer"
+	"github.com/nowfred/dd-trace-go/internal/log"
+	"github.com/nowfred/dd-trace-go/internal/telemetry"
 
 	"github.com/julienschmidt/httprouter"
 )

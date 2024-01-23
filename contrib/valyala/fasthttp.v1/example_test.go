@@ -8,8 +8,8 @@ package fasthttp_test
 import (
 	"fmt"
 
-	fasthttptrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/valyala/fasthttp.v1"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	fasthttptrace "github.com/nowfred/dd-trace-go/contrib/valyala/fasthttp.v1"
+	"github.com/nowfred/dd-trace-go/ddtrace/tracer"
 
 	"github.com/valyala/fasthttp"
 )

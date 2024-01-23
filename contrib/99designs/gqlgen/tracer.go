@@ -21,8 +21,8 @@
 //		"github.com/99designs/gqlgen/_examples/todo"
 //		"github.com/99designs/gqlgen/graphql/handler"
 //
-//		"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-//		gqlgentrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/99designs/gqlgen"
+//		"github.com/nowfred/dd-trace-go/ddtrace/tracer"
+//		gqlgentrace "github.com/nowfred/dd-trace-go/contrib/99designs/gqlgen"
 //	)
 //
 //	func Example() {
@@ -46,12 +46,12 @@ import (
 	"math"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/graphqlsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/namingschema"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/nowfred/dd-trace-go/ddtrace"
+	"github.com/nowfred/dd-trace-go/ddtrace/ext"
+	"github.com/nowfred/dd-trace-go/ddtrace/tracer"
+	"github.com/nowfred/dd-trace-go/internal/appsec/emitter/graphqlsec"
+	"github.com/nowfred/dd-trace-go/internal/namingschema"
+	"github.com/nowfred/dd-trace-go/internal/telemetry"
 
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/vektah/gqlparser/v2/ast"

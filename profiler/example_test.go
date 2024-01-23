@@ -8,7 +8,7 @@ package profiler_test
 import (
 	"log"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/profiler"
+	"github.com/nowfred/dd-trace-go/profiler"
 )
 
 // This example illustrates how to run (and later stop) the Datadog Profiler.

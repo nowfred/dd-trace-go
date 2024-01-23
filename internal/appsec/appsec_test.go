@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/config"
+	"github.com/nowfred/dd-trace-go/ddtrace/tracer"
+	"github.com/nowfred/dd-trace-go/internal/appsec"
+	"github.com/nowfred/dd-trace-go/internal/appsec/config"
 
 	waf "github.com/DataDog/go-libddwaf/v2"
 	"github.com/stretchr/testify/assert"

@@ -8,8 +8,8 @@ package kafka_test
 import (
 	"fmt"
 
-	kafkatrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/confluentinc/confluent-kafka-go/kafka"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	kafkatrace "github.com/nowfred/dd-trace-go/contrib/confluentinc/confluent-kafka-go/kafka"
+	"github.com/nowfred/dd-trace-go/ddtrace/tracer"
 
 	"github.com/confluentinc/confluent-kafka-go/kafka"
 )

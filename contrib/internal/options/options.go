@@ -5,7 +5,7 @@
 
 package options
 
-import "gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
+import "github.com/nowfred/dd-trace-go/ddtrace"
 
 // Copy should be used any time existing options are copied into
 // a new locally scoped set of options. This is to avoid data races and

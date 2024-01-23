@@ -6,8 +6,8 @@
 package opentracer_test
 
 import (
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/opentracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	"github.com/nowfred/dd-trace-go/ddtrace/opentracer"
+	"github.com/nowfred/dd-trace-go/ddtrace/tracer"
 
 	opentracing "github.com/opentracing/opentracing-go"
 )

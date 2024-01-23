@@ -12,7 +12,7 @@ import (
 	"time"
 
 	internal "github.com/DataDog/appsec-internal-go/appsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/remoteconfig"
+	"github.com/nowfred/dd-trace-go/internal/remoteconfig"
 )
 
 // EnvEnabled is the env var used to enable/disable appsec

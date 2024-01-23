@@ -10,8 +10,8 @@ import (
 	"log"
 	"net/http"
 
-	restfultrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/emicklei/go-restful"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	restfultrace "github.com/nowfred/dd-trace-go/contrib/emicklei/go-restful"
+	"github.com/nowfred/dd-trace-go/ddtrace/tracer"
 
 	"github.com/emicklei/go-restful"
 )

@@ -13,9 +13,9 @@ import (
 	"context"
 	"reflect"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/listener"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/trace"
+	"github.com/nowfred/dd-trace-go/internal/appsec/dyngo"
+	"github.com/nowfred/dd-trace-go/internal/appsec/listener"
+	"github.com/nowfred/dd-trace-go/internal/appsec/trace"
 
 	"github.com/DataDog/appsec-internal-go/netip"
 )

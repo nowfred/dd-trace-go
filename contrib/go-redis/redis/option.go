@@ -3,13 +3,13 @@
 // This product includes software developed at Datadog (https://www.datadoghq.com/).
 // Copyright 2016 Datadog, Inc.
 
-package redis // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/go-redis/redis"
+package redis // import "github.com/nowfred/dd-trace-go/contrib/go-redis/redis"
 
 import (
 	"math"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/namingschema"
+	"github.com/nowfred/dd-trace-go/internal"
+	"github.com/nowfred/dd-trace-go/internal/namingschema"
 )
 
 const defaultServiceName = "redis.client"

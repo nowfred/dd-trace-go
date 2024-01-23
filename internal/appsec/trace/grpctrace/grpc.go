@@ -6,10 +6,10 @@
 package grpctrace
 
 import (
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/trace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/trace/httptrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/nowfred/dd-trace-go/ddtrace"
+	"github.com/nowfred/dd-trace-go/internal/appsec/trace"
+	"github.com/nowfred/dd-trace-go/internal/appsec/trace/httptrace"
+	"github.com/nowfred/dd-trace-go/internal/log"
 )
 
 // SetSecurityEventsTags sets the AppSec events span tags.

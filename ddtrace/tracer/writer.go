@@ -16,8 +16,8 @@ import (
 	"sync"
 	"time"
 
-	globalinternal "gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	globalinternal "github.com/nowfred/dd-trace-go/internal"
+	"github.com/nowfred/dd-trace-go/internal/log"
 )
 
 type traceWriter interface {

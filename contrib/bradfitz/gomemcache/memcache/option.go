@@ -8,8 +8,8 @@ package memcache
 import (
 	"math"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/namingschema"
+	"github.com/nowfred/dd-trace-go/internal"
+	"github.com/nowfred/dd-trace-go/internal/namingschema"
 )
 
 const (

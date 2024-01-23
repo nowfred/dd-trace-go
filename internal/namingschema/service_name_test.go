@@ -8,8 +8,8 @@ package namingschema_test
 import (
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/namingschema"
+	"github.com/nowfred/dd-trace-go/internal/globalconfig"
+	"github.com/nowfred/dd-trace-go/internal/namingschema"
 
 	"github.com/stretchr/testify/assert"
 )

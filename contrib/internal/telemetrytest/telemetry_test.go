@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/gorilla/mux"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/nowfred/dd-trace-go/contrib/gorilla/mux"
+	"github.com/nowfred/dd-trace-go/internal/telemetry"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -37,7 +37,7 @@ type contribPkg struct {
 	Dir        string
 }
 
-var TelemetryImport = "gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+var TelemetryImport = "github.com/nowfred/dd-trace-go/internal/telemetry"
 
 func (p *contribPkg) hasTelemetryImport() bool {
 	for _, imp := range p.Imports {

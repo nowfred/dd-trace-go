@@ -16,8 +16,8 @@ import (
 	"runtime/trace"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/profiler/internal/fastdelta"
-	"gopkg.in/DataDog/dd-trace-go.v1/profiler/internal/pprofutils"
+	"github.com/nowfred/dd-trace-go/profiler/internal/fastdelta"
+	"github.com/nowfred/dd-trace-go/profiler/internal/pprofutils"
 
 	"github.com/DataDog/gostackparse"
 	pprofile "github.com/google/pprof/profile"

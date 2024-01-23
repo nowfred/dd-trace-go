@@ -12,8 +12,8 @@ import (
 
 	internal "github.com/DataDog/appsec-internal-go/appsec"
 	waf "github.com/DataDog/go-libddwaf/v2"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/listener/httpsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/trace"
+	"github.com/nowfred/dd-trace-go/internal/appsec/listener/httpsec"
+	"github.com/nowfred/dd-trace-go/internal/appsec/trace"
 
 	"github.com/stretchr/testify/require"
 )

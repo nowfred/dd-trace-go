@@ -19,13 +19,13 @@ import (
 	"strings"
 	"sync"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/sharedsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/listener"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/trace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/trace/httptrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/nowfred/dd-trace-go/ddtrace"
+	"github.com/nowfred/dd-trace-go/internal/appsec/dyngo"
+	"github.com/nowfred/dd-trace-go/internal/appsec/emitter/sharedsec"
+	"github.com/nowfred/dd-trace-go/internal/appsec/listener"
+	"github.com/nowfred/dd-trace-go/internal/appsec/trace"
+	"github.com/nowfred/dd-trace-go/internal/appsec/trace/httptrace"
+	"github.com/nowfred/dd-trace-go/internal/log"
 
 	"github.com/DataDog/appsec-internal-go/netip"
 )

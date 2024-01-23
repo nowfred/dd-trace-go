@@ -8,9 +8,9 @@ package profiler
 import (
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry/telemetrytest"
+	"github.com/nowfred/dd-trace-go/ddtrace/tracer"
+	"github.com/nowfred/dd-trace-go/internal/telemetry"
+	"github.com/nowfred/dd-trace-go/internal/telemetry/telemetrytest"
 
 	"github.com/stretchr/testify/assert"
 )

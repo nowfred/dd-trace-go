@@ -18,10 +18,10 @@ import (
 	"sync"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/traceprof"
-	"gopkg.in/DataDog/dd-trace-go.v1/profiler/internal/immutable"
+	"github.com/nowfred/dd-trace-go/internal"
+	"github.com/nowfred/dd-trace-go/internal/log"
+	"github.com/nowfred/dd-trace-go/internal/traceprof"
+	"github.com/nowfred/dd-trace-go/profiler/internal/immutable"
 )
 
 // outChannelSize specifies the size of the profile output channel.

@@ -12,7 +12,7 @@ import (
 	"os"
 	"strings"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/nowfred/dd-trace-go/internal/log"
 )
 
 // blockedTemplateJSON is the default JSON template used to write responses for blocked requests

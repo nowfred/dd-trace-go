@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	dnstrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/miekg/dns"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
+	dnstrace "github.com/nowfred/dd-trace-go/contrib/miekg/dns"
+	"github.com/nowfred/dd-trace-go/ddtrace/ext"
+	"github.com/nowfred/dd-trace-go/ddtrace/mocktracer"
 
 	"github.com/miekg/dns"
 	"github.com/stretchr/testify/assert"

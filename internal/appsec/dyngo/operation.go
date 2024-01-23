@@ -24,7 +24,7 @@ import (
 	"reflect"
 	"sync"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/nowfred/dd-trace-go/internal/log"
 
 	"go.uber.org/atomic"
 )

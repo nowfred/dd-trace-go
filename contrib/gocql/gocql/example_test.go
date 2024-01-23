@@ -8,9 +8,9 @@ package gocql_test
 import (
 	"context"
 
-	gocqltrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/gocql/gocql"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	gocqltrace "github.com/nowfred/dd-trace-go/contrib/gocql/gocql"
+	"github.com/nowfred/dd-trace-go/ddtrace/ext"
+	"github.com/nowfred/dd-trace-go/ddtrace/tracer"
 )
 
 func Example() {

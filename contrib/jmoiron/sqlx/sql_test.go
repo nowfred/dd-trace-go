@@ -11,9 +11,9 @@ import (
 	"os"
 	"testing"
 
-	sqltrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/database/sql"
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/sqltest"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
+	sqltrace "github.com/nowfred/dd-trace-go/contrib/database/sql"
+	"github.com/nowfred/dd-trace-go/contrib/internal/sqltest"
+	"github.com/nowfred/dd-trace-go/ddtrace/ext"
 
 	mssql "github.com/denisenkom/go-mssqldb"
 	"github.com/go-sql-driver/mysql"

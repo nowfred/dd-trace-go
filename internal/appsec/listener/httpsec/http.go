@@ -14,13 +14,13 @@ import (
 	internal "github.com/DataDog/appsec-internal-go/appsec"
 	"github.com/DataDog/appsec-internal-go/limiter"
 	waf "github.com/DataDog/go-libddwaf/v2"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/httpsec"
-	emitter "gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/sharedsec"
-	listener "gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/listener/sharedsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/samplernames"
+	"github.com/nowfred/dd-trace-go/ddtrace/ext"
+	"github.com/nowfred/dd-trace-go/internal/appsec/dyngo"
+	"github.com/nowfred/dd-trace-go/internal/appsec/emitter/httpsec"
+	emitter "github.com/nowfred/dd-trace-go/internal/appsec/emitter/sharedsec"
+	listener "github.com/nowfred/dd-trace-go/internal/appsec/listener/sharedsec"
+	"github.com/nowfred/dd-trace-go/internal/log"
+	"github.com/nowfred/dd-trace-go/internal/samplernames"
 )
 
 // HTTP rule addresses currently supported by the WAF

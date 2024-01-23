@@ -14,9 +14,9 @@ import (
 	"testing"
 
 	"github.com/graphql-go/graphql"
+	"github.com/nowfred/dd-trace-go/ddtrace/mocktracer"
+	"github.com/nowfred/dd-trace-go/internal/appsec"
 	"github.com/stretchr/testify/require"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec"
 )
 
 func TestAppSec(t *testing.T) {

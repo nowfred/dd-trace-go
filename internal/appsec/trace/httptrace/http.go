@@ -11,8 +11,8 @@ import (
 	"strings"
 
 	"github.com/DataDog/appsec-internal-go/httpsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/trace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/nowfred/dd-trace-go/internal/appsec/trace"
+	"github.com/nowfred/dd-trace-go/internal/log"
 )
 
 const (

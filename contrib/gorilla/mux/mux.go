@@ -4,18 +4,18 @@
 // Copyright 2016 Datadog, Inc.
 
 // Package mux provides tracing functions for tracing the gorilla/mux package (https://github.com/gorilla/mux).
-package mux // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/gorilla/mux"
+package mux // import "github.com/nowfred/dd-trace-go/contrib/gorilla/mux"
 
 import (
 	"net/http"
 
-	httptraceinternal "gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/httptrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/options"
-	httptrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/net/http"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	httptraceinternal "github.com/nowfred/dd-trace-go/contrib/internal/httptrace"
+	"github.com/nowfred/dd-trace-go/contrib/internal/options"
+	httptrace "github.com/nowfred/dd-trace-go/contrib/net/http"
+	"github.com/nowfred/dd-trace-go/ddtrace/ext"
+	"github.com/nowfred/dd-trace-go/ddtrace/tracer"
+	"github.com/nowfred/dd-trace-go/internal/log"
+	"github.com/nowfred/dd-trace-go/internal/telemetry"
 
 	"github.com/gorilla/mux"
 )

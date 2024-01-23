@@ -11,8 +11,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/samplernames"
+	"github.com/nowfred/dd-trace-go/ddtrace/ext"
+	"github.com/nowfred/dd-trace-go/internal/samplernames"
 )
 
 // BlockedRequestTag used to convey whether a request is blocked

@@ -14,11 +14,11 @@ import (
 	"testing"
 
 	waf "github.com/DataDog/go-libddwaf/v2"
-	pAppsec "gopkg.in/DataDog/dd-trace-go.v1/appsec"
-	httptrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/net/http"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/config"
+	pAppsec "github.com/nowfred/dd-trace-go/appsec"
+	httptrace "github.com/nowfred/dd-trace-go/contrib/net/http"
+	"github.com/nowfred/dd-trace-go/ddtrace/mocktracer"
+	"github.com/nowfred/dd-trace-go/internal/appsec"
+	"github.com/nowfred/dd-trace-go/internal/appsec/config"
 
 	"github.com/stretchr/testify/require"
 )
